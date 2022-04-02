@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13566" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:21Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="CardTest.CreditCardTest()[pri:0, instance:testNg.CardTest@797badd3]" name="CreditCardTest" class="testNg.CardTest"/>
+        <method signature="LoanTest.HomeLoanTest()[pri:0, instance:testNg.LoanTest@646be2c3]" name="HomeLoanTest" class="testNg.LoanTest"/>
+        <method signature="LoginTestTestNG.LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:testNg.LoginTestTestNG@77be656f]" name="LoginTestCase" class="testNg.LoginTestTestNG"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Test" duration-ms="13566" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:21Z">
+      <class name="testNg.LoanTest">
+        <test-method status="PASS" signature="method1()[pri:0, instance:testNg.LoanTest@646be2c3]" name="method1" is-config="true" duration-ms="5" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="HomeLoanTest()[pri:0, instance:testNg.LoanTest@646be2c3]" name="HomeLoanTest" duration-ms="4" started-at="2022-04-02T17:07:07Z" description="This test case is for home loan" finished-at="2022-04-02T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanTest -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:testNg.LoanTest@646be2c3]" name="method2" is-config="true" duration-ms="0" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testNg.LoanTest -->
+      <class name="testNg.LoginTestTestNG">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testNg.LoginTestTestNG@77be656f]" name="Setup" is-config="true" duration-ms="3581" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:testNg.LoginTestTestNG@77be656f]" name="LoginTestCase" duration-ms="9883" started-at="2022-04-02T17:07:11Z" finished-at="2022-04-02T17:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pqrsd@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testNg.LoginTestTestNG@77be656f]" name="TearDown" is-config="true" duration-ms="61" started-at="2022-04-02T17:07:21Z" finished-at="2022-04-02T17:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testNg.LoginTestTestNG -->
+      <class name="testNg.CardTest">
+        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testNg.CardTest@797badd3]" name="CreditCardTest" duration-ms="0" started-at="2022-04-02T17:07:07Z" finished-at="2022-04-02T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreditCardTest -->
+      </class> <!-- testNg.CardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
